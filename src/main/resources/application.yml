@@ -10,7 +10,8 @@ environment:
 spring:
   profiles: dev
 mongodb:
-  host: 127.0.0.1
+  host: mongo
+  #host: localhost
   port: 27017
   database: dev_db
   username: 
