@@ -41,8 +41,3 @@ jobs:
          destination: prefix
      - store_test_results:
          path: .
-general:
-  branches:
-    only:
-     - master # list of branches to build
-     - /feature*/ # or regexes
